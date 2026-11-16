@@ -1,0 +1,33 @@
+ROMANTIC PAGE - INSTRUCTIONS
+
+1. Unzip the folder and open index.html in your browser.
+2. The navigation works like this:
+   index.html -> "Yes" button -> regalo.html -> tap the gift five times -> recuerdos.html
+   "No" button -> terminado.html
+
+CHANGING THE PHOTOS
+Place six images in assets/fotos/ using these exact names:
+- foto-1.jpg
+- foto-2.jpg
+- foto-3.jpg
+- foto-4.jpg
+- foto-5.jpg
+- foto-6.jpg
+
+You can use .png or .webp, but if you change the extension you must also update the
+corresponding src in recuerdos.html. The design crops images to preserve the collage
+composition; portrait photos work best.
+
+ADDING BACKGROUND MUSIC
+Place a local audio file at assets/audio/romantic-song.mp3. The music button on
+recuerdos.html will play and pause it. Browsers may prevent automatic playback, so
+the visitor must press the button to start the song.
+
+CHANGING THE SAD STICKER
+Place your sticker at assets/stickers/triste.png. If it does not exist, 🥺 will be shown.
+
+PERSONALIZING
+- Change "Sandar" and the text directly in the HTML files.
+- Colors, sizes, layout, and styles are in css/styles.css.
+- Bootstrap 5.3 is loaded from a CDN, so you need an internet connection for its styles.
+- The gallery adapts to small screens by rearranging the collage for mobile.

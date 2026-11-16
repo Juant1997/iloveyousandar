@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4fbfc">
+  <title>Our memories ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="memories-page">
+  <main class="container py-4 py-md-5">
+    <header class="memory-heading text-center">
+      <span class="tiny-label">A LITTLE ALBUM</span>
+      <h1>Moments with you <span>♥</span></h1>
+      <p>Every memory with you has a special place in my heart.</p>
+    </header>
+
+    <!-- Replace the sample images with your own photos. See LEEME.txt -->
+    <section class="memory-collage" aria-label="Memory gallery">
+      <figure class="memory-photo photo-one"><img src="/foto1.jpeg" alt="Our first memory"></figure>
+      <figure class="memory-photo photo-two"><img src="/foto2.jpeg" alt="A special moment"></figure>
+      <figure class="memory-photo photo-three"><img src="/foto3.jpeg" alt="A smile to remember"></figure>
+      <figure class="memory-photo photo-four"><img src="/foto4.jpeg" alt="A memory together"></figure>
+      <figure class="memory-photo photo-five"><img src="/foto5.jpeg" alt="A special video call"></figure>
+      <figure class="memory-photo photo-six"><img src="/foto6.jpeg" alt="Another beautiful moment"></figure>
+    </section>
+
+    <!-- Add your local audio file at assets/audio/romantic-song.mp3. Browsers may require the button to start it. -->
+    <section class="music-player text-center" aria-label="Background music">
+      <audio id="backgroundMusic" loop preload="none">
+        <source src="/nothingchange.mpeg" type="audio/mpeg">
+      </audio>
+      <button class="btn btn-music" id="musicToggle" type="button">Play our song ♪</button>
+    </section>
+
+    <section class="closing-note text-center">
+      <div class="closing-heart">💗</div>
+      <h2>And this is only the beginning...</h2>
+      <p>Thank you for making my days brighter. I am so happy you are part of my life.</p>
+      <a href="index.html" class="btn btn-love">Back to the beginning</a>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
